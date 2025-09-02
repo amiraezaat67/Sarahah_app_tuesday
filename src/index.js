@@ -35,7 +35,7 @@ var corsOptions = {
 
 
 app.get('/', (req, res) => {
-    res.send('Congratulations your code is running!');
+    res.send('Congratulations 🎊 your code is running!');
 })
 
 app.use(cors(corsOptions))
